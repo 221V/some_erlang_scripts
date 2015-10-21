@@ -1,2 +1,6 @@
-# some_erlang_scripts
-some_erlang_scripts
+some different erlang scripts
+
+немного различных erlang скриптов
+
+трошки різних erlang скриптів
+
