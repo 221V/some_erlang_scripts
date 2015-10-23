@@ -14,8 +14,8 @@ plvc(A) ->
 plvsc(A,B) ->
 	math:pi()*2*A*B.
 
-%площа поверхні слоя кулі(сфери),відрізаного двома паралельними площинами,,радіус більшого круга кулі,висота слоя кулі
-%surface area of the layer ball(sphere),cutting two parallel planes,,the radius of the bigger circle ball,height of the layer ball
+%площа поверхні слоя кулі(сфери),відрізаного двома паралельними площинами,,радіус більшого круга слоя кулі,висота слоя кулі
+%surface area of the layer ball(sphere),cutting two parallel planes,,the radius of the bigger circle of layer ball,height of the layer ball
 plvshc(A,B) ->
 	math:pi()*2*A*B.
 
