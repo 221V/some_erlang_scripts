@@ -1,4 +1,4 @@
--module(gm-perimeter).
+-module(gm_perimeter).
 -compile(export_all).
 
 %периметр

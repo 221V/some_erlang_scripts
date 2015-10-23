@@ -1,4 +1,4 @@
--module(gm-volume-area).
+-module(gm_volume_area).
 -compile(export_all).
 
 %площа поверхні обємних тіл

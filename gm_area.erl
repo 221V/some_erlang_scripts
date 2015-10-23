@@ -1,4 +1,4 @@
--module(gm-area).
+-module(gm_area).
 -compile(export_all).
 
 %площа
