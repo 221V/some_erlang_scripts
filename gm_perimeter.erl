@@ -33,3 +33,4 @@ pco(A) ->
 %length of the arc of circle,,radius,degree
 ppco(A,B) ->
 	(math:pi()*A*B)/180.
+
