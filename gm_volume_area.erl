@@ -63,3 +63,4 @@ plvbzcn(A,B,C) ->
 %full surface area of a truncated circular cone,,smaller radius,bigger radius,lateral height of a truncated circular cone
 plvfzcn(A,B,C) ->
 	math:pi()*(A*A+(A+B)*C+B*B).
+
