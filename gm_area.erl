@@ -98,3 +98,4 @@ pltr8(A,B) ->
 %area of the equilateral triangle (9) - by side,,side
 pltr9(A) ->
 	math:sqrt(3)*A*A/4.
+
