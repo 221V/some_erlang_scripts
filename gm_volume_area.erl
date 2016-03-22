@@ -1,5 +1,6 @@
 -module(gm_volume_area).
--compile(export_all).
+%-compile(export_all).
+-export([plvc/1,plvsc/2,plvshc/2,plvssc/2,plvcub/1,plvbcn/2,plvfcn/2,plvbcl/2,plvfcl/2,plvpp/3,plvbzcn/3,plvfzcn/3]).
 
 %площа поверхні обємних тіл
 %surface area of the volume bodies,,inputs

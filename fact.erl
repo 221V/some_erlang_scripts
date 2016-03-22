@@ -1,5 +1,5 @@
 -module(fact).
--export(export_all).
+-export([factorial/1]).
 
 %factorial
 factorial(0) -> 1;

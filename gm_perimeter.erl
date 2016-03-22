@@ -1,5 +1,6 @@
 -module(gm_perimeter).
--compile(export_all).
+%-compile(export_all).
+-export([ppr/2,pcr/1,ptrap/4,ptr/3,pco/1,ppco/2]).
 
 %периметр
 %perimeter

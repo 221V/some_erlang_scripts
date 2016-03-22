@@ -1,5 +1,5 @@
 -module(comparison).
--compile(export_all).
+-export([bmi_tell/1]).
 
 bmi_tell(Bmi) when Bmi =< 18.5 ->
 	"You're underweight.";

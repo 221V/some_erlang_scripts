@@ -1,5 +1,6 @@
 -module(gm_volume).
--compile(export_all).
+%-compile(export_all).
+-export([vc/1,vsc/2,vslc/3,vscc/2,vcl/2,vcn/2,vzcn/3,vcb/1,vpp/3,vpd/2,vzpd/3,vppd/3,vptpd/2,vpcpd/2,vtdr/1]).
 
 %обєм
 %volume

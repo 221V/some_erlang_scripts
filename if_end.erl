@@ -1,5 +1,5 @@
 -module(if_end).
--compile(export_all).
+-export([bmi_telle/1]).
 
 bmi_telle(Bmi) ->
 	if	Bmi =< 18.5 -> "You're underweight.";

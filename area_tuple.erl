@@ -1,5 +1,5 @@
 -module(area_tuple).
--compile(export_all).
+-export([area/1]).
 
 area({square, Side}) ->
 	Side * Side;

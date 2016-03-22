@@ -1,5 +1,5 @@
 -module(or_else).
--compile(export_all).
+-export([lucky_atom/1]).
 
 lucky_atom(X) when X == atom1; X == anot2 ->
 	true;

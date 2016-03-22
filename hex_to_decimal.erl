@@ -1,5 +1,5 @@
 -module(hex_to_decimal).
--compile(export_all).
+-export([todec/1]).
 
 %Data === hex list
 todec(Data) ->

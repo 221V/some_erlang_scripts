@@ -1,5 +1,6 @@
 -module(case_end).
--compile(export_all).
+%-compile(export_all).
+-export([asst_temp/1]).
 
 asst_temp(Temp) ->
 	case Temp of

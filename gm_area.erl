@@ -1,5 +1,6 @@
 -module(gm_area).
--compile(export_all).
+%-compile(export_all).
+-export([plpr/2,plcv/1,plcv2/1,pltrap/3,plprl/2,plbc/2,plr/2,plsdc/2,plc/1,plscr/2,pltr1/2,pltr2/3,pltr3/3,pltr4/3,pltr5/2,pltr6/2,pltr7/2,pltr8/2,pltr9/1]).
 
 %площа
 %area

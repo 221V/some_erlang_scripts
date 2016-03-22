@@ -1,5 +1,5 @@
 -module(and_also).
--compile(export_all).
+-export([lucky_number/1]).
 
 lucky_number(X) when 10 < X, X > 20 ->
 	true;

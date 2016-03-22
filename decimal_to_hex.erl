@@ -1,5 +1,5 @@
 -module(decimal_to_hex).
--compile(export_all).
+-export([tohex/1]).
 
 %Data === decimal list
 tohex(Data) ->

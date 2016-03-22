@@ -1,6 +1,8 @@
--module(hello2).
--export([greet/2]).
-%-compile(export_all).
+-module(hello3).
+-export([hello/0,greet/2]).
+
+hello() ->
+io:format("Hello, world!~n").
 
 greet(male, Name) ->
 	io:format("Hello, Mr. ~s!", [Name]);

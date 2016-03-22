@@ -1,5 +1,5 @@
 -module(comparison_var).
--compile(export_all).
+-export([same/2]).
 
 same(X,X) ->
 	true;

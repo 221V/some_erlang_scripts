@@ -1,5 +1,5 @@
 -module(add).
--export(export_all).
+-export([add/2]).
 
 add(A,B) ->
 A + B.
